@@ -69,7 +69,7 @@ class TRAIN:
                 if TL[ind][5] != '매진':
                     reservation_list.append(TL[ind])
                     TL[ind][5] = int(TL[ind][5])-1
-                    print('예매가 완료되었습니다.')
+                    print('\n예매가 완료되었습니다.')
                     indlist.append(ind)
                     if TL[ind][5] == 0:
                         TL[ind][5] = '매진'
